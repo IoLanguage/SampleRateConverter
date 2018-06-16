@@ -1,0 +1,15 @@
+{
+  "name":         "SampleRateConverter",
+  "version":      "0.1",
+  "description":  "A binding for libsamplerate useful for up or downconverting the sample rate of a raw audio stream.",
+  "author":       "Steve Dekorte",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["SampleRateConverter"],
+  "dependencies": {
+    "libs":     ["samplerate"],
+    "headers":  ["samplerate.h"],
+    "protos":   [],
+    "packages": []
+  }
+}
